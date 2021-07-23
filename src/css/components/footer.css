@@ -1,0 +1,40 @@
+.footer-nav {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+
+  @screen sm {
+    flex-flow: row nowrap;
+  }
+
+  &__list {
+    align-self: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    flex: 1 1 auto;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+
+    @screen sm {
+      flex-flow: row nowrap;
+    }
+  }
+
+  &__item {
+    flex: 1 0 33.333%;
+    padding: 0.5rem 0;
+    text-align: center;
+
+    @screen sm {
+      flex: 1 auto;
+    }
+  }
+
+  &__link {
+    @apply font-sans text-white;
+    text-decoration: none;
+    font-size: 1.86rem;
+  }
+}

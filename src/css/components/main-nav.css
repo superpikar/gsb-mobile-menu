@@ -1,0 +1,54 @@
+.main-nav {
+  display: flex;
+  flex-flow: row nowrap;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+    margin-right: 1rem;
+  }
+
+  &__link {
+    @apply font-bold text-primary;
+
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 200ms 200ms;
+  }
+
+  @screen sm {
+    &__link:hover {
+      .main-nav__link-icon {
+        transform: rotate(-9deg) scale(1.1) translateY(-0.2rem);
+      }
+    }
+  }
+
+  &.is-active {
+    .main-nav__link {
+      color: $white;
+    }
+  }
+
+  &__link-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    transition: transform 250ms;
+    width: 2rem;
+  }
+
+  &__link-text {
+    text-align: center;
+  }
+}

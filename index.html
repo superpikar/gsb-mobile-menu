@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSB Challenge</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col min-h-screen bg-white border-primary border-lg">
+    <!-- Nav Bar -->
+    <header class="flex justify-between p-6">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#locations"
+              ><div class="main-nav__link-icon">
+                <img
+                  src="/src/static/img/gsb-icon-locations-8.png"
+                  alt="Locations Icon"
+                  srcset="/src/static/img/gsb-icon-locations@2x.png 2x"
+                />
+              </div>
+              <div class="main-nav__link-text">Locations</div></a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#locations"
+              ><div class="main-nav__link-icon">
+                <img
+                  src="/src/static/img/gsb-icon-order-8.png"
+                  alt="Order Online Icon"
+                  srcset="/src/static/img/gsb-icon-order@2x.png 2x"
+                />
+              </div>
+              <div class="main-nav__link-text">Order Online</div></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu Button -->
+      <div class="grid w-12 h-12 bg-yellow-400 place-content-center">Menu</div>
+    </header>
+
+    <!-- Main -->
+    <main id="main" class="grid flex-grow p-6 bg-white place-content-center">
+      <article class="flex flex-col justify-center py-12">
+        <img
+          src="/src/static/img/gsb-logo-wordmark-8.png"
+          alt="Great State Burger"
+          srcset="/src/static/img/gsb-logo-wordmark@2x.png 2x"
+          class="max-w-full mx-auto"
+        />
+
+        <p class="mt-6 md:mt-12">
+          Af en toe, wanneer ik mijn jager of houthakker goed kende, heb ik
+          diens getuigenis gebruikt, maar nooit zonder haar zorgvuldig te
+          overwegen, en altijd stelde ik haar, wanneer dat mogelijk was, op de
+          proef, door het bewuste dier dagen of weken gade te slaan, tot ik zelf
+          zag dat alles waar was.
+        </p>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-6 bg-primary">
+      <div class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="/">Home</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="#locations"
+              >Locations</a
+            >
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="#menu">Menu</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="#about">About</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="#catering"
+              >Catering</a
+            >
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link link-effect" href="#jobs">Jobs</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

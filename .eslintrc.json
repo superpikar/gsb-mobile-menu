@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "settings": {},
+  "extends": ["airbnb-base"],
+  "plugins": [],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {}
+  },
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "ignoreComments": true
+      }
+    ]
+  }
+}
