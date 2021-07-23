@@ -8,7 +8,7 @@ This assignment is to understand your thought process when solving a front-end c
 
 This repository is set up with Tailwind + PostCSS + ES2015 for your convenience, but feel free to use your preferred tech stack if you feel that getting up to speed with these libraries would take too much time.
 
-**Please use whatever you're are most comfortable building websites with.**
+**Please use whatever you're most comfortable building websites with.**
 
 - [Next.js](https://nextjs.org/docs/getting-started) / [Nuxt.js](https://nuxtjs.org/docs/2.x/get-started/installation)
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) / [Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
