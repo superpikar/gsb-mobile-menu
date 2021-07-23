@@ -13,7 +13,7 @@ This repository is set up with Tailwind + PostCSS + ES2015 for your convenience,
 - [Next.js](https://nextjs.org/docs/getting-started) / [Nuxt.js](https://nuxtjs.org/docs/2.x/get-started/installation)
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) / [Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
 - [SvelteKit](https://kit.svelte.dev/docs)
-- [ParcelJS](https://parceljs.org/getting_started.html)
+- [GatsbyJS](https://www.gatsbyjs.com/)
 - [CodePen.io](https://CodePen.io)
 - Whatever you want...
 
